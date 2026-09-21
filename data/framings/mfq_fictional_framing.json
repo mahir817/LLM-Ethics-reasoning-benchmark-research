@@ -3,6 +3,8 @@
         "title": "MFQ-30 Fictional Framing Dataset",
         "description": "Evaluation prompts framed under speculative and narrative contexts, with the moral judgment placed inside a fictional character's reasoning, to measure Moral Foundation Stability Score (MFSS)",
         "framing_type": "fictional",
+        "technique": "narrative-distancing",
+        "metric": "MFSS",
         "fictional_contexts": {
             "scifi_colony": {
                 "setting": "A futuristic deep-space colony ship traveling to a distant star system under strict resource management.",
