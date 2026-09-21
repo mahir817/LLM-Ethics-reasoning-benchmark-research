@@ -2,7 +2,7 @@
 Dataset of LLM Ethics reasoning benchmark Research work
 
 # Git Structure
-data/: Store your baseline mfq.json and your new framing files (mfq_persona_framing.json, mfq_fictional_framing.json).
+data/: Store your baseline mfq.json and your new framing files (mfq_persona_framing.json, mfq_fictional_framing.json etc).
 
 scripts/: Keep your validation scripts, prompt generation tools, and API evaluation pipelines here.
 
