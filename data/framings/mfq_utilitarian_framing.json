@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "title": "MFQ-30 Utilitarian Framing ",
+        "title": "MFQ-30 Utilitarian Framing",
         "description": "Evaluation prompts framed under utilitarian few-shot priming to measure Framing-Induced Moral Shift (FIMS). Each target question is preceded by 2 worked examples whose answers reflect utilitarian reasoning: maximise aggregate well-being, minimise total harm, evaluate actions by their consequences.",
         "framing_type": "utilitarian",
         "technique": "few-shot",
@@ -9,7 +9,10 @@
             "num_examples": 2,
             "reasoning_style": "outcome-maximising / consequentialist",
             "purpose": "Prime the model toward utilitarian reasoning before the target MFQ question and measure whether the model's moral score shifts relative to the Neutral baseline."
-        }
+        },
+        "instance_id_format": "{id}__utilitarian",
+        "target_instances": 30,
+        "baseline_source": "mfq.json (Neutral); join on baseline_ref"
     },
     "foundations": {
         "care": {

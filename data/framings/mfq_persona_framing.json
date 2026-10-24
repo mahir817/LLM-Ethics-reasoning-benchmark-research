@@ -30,7 +30,10 @@
                 "description": "A civil rights lawyer focused on equal treatment, proportionality, and challenging unjust or unequal outcomes.",
                 "expected_foundation_pull": "fairness"
             }
-        }
+        },
+        "instance_id_format": "{id}__persona__{persona}",
+        "target_instances": 180,
+        "baseline_source": "mfq.json (Neutral); join on baseline_ref"
     },
     "foundations": {
         "care": {

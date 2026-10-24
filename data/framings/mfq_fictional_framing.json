@@ -18,7 +18,10 @@
                 "setting": "A medieval high-fantasy realm governed by feudal guilds, ancient oaths, and magical law.",
                 "character": "a guild magistrate who is called upon to rule on matters of honor and conduct"
             }
-        }
+        },
+        "instance_id_format": "{id}__fictional__{context}",
+        "target_instances": 90,
+        "baseline_source": "mfq.json (Neutral); join on baseline_ref"
     },
     "foundations": {
         "care": {
