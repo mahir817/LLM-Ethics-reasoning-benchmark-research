@@ -1,0 +1,19 @@
+======================================================================
+BENCHMARK FRAMING VALIDATION REPORT: mfq_persona_framing.json
+======================================================================
+Framing File : data\framings\mfq_persona_framing.json
+Flat File    : data\framings\flat\persona.jsonl
+Base File    : data\mfq.json
+----------------------------------------------------------------------
+SUMMARY OF CHECKS:
+[PASS] Check a: JSON is valid; exactly 30 items, 5 foundations x (3 relevance + 3 agreement)
+[PASS] Check b: Every id exists in data/mfq.json, matching relevance/agreement, original identical
+[PASS] Check c: baseline_ref == id for every item
+[PASS] Check d: Every item has exactly the 6 persona keys
+[PASS] Check e: Every prompt ends with correct tail and contains '{original}' exactly
+[PASS] Check g: The 6 intros appear verbatim and are identical across all 30 items for the same persona
+[PASS] Check f: Total instances == 180 and all instance_ids unique, in both JSON and JSONL
+[PASS] Check h: Seed care_r1 persona prompts differ ONLY in three neutralized intros (commander, judge, nurse)
+----------------------------------------------------------------------
+OVERALL RESULT: ALL CHECKS PASSED (8/8 PASS)
+======================================================================
